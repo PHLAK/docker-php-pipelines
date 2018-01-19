@@ -3,6 +3,19 @@ phlak/docker-php-pipelines
 
 Docker image for running PHP tests in Bitbucket Pipelines.
 
+Description
+-----------
+
+This image is just the official `php` Docker image with composer and some
+additional extensions pre-installed.
+
+**Included Extensions**
+
+  - MySQL (PDO)
+  - YAML
+  - Xdebug
+
+
 Usage
 -----
 
