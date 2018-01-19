@@ -6,14 +6,16 @@ Docker image for running PHP tests in Bitbucket Pipelines.
 Description
 -----------
 
-This image is just the official `php` Docker image with composer and some
-additional extensions pre-installed.
+This image is just the official `php` Docker image with some additional
+utilities and extensions pre-installed.
 
-**Included Extensions**
+**Included Utilities and Extensions**
 
-  - MySQL (PDO)
-  - YAML
-  - Xdebug
+  - [Composer](https://getcomposer.org/)
+  - [Google Cloud SDK](https://cloud.google.com/sdk/)
+  - php-mysql
+  - php-yaml
+  - php-xdebug
 
 
 Usage
