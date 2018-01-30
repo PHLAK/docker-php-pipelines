@@ -13,6 +13,9 @@ RUN docker-php-ext-install pdo pdo_mysql \
     && pecl install yaml && docker-php-ext-enable yaml \
     && pecl install xdebug && docker-php-ext-enable xdebug
 
+# Create php.ini
+COPY files/php.ini /usr/local/etc/php/php.ini
+
 # Install Google Cloud SDK
 RUN mkdir --parents --verbose /opt/google-cloud-sdk
 RUN curl --silent https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-185.0.0-linux-x86_64.tar.gz \
