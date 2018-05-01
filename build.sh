@@ -6,7 +6,7 @@ set -o errexit
 
 SCRIPT_DIR="$(dirname $(readlink -f ${0}))"
 
-IMAGE_NAME="phlak/php-pipelines"
+IMAGE_NAME="gcr.io/fdr-srv-credit-dev/pipelines"
 TAG="local"
 
 ## SCRIPT USAGE

@@ -1,5 +1,5 @@
 FROM php:7.1.16
-MAINTAINER Chris Kankiewicz <Chris@ChrisKankiewicz.com>
+MAINTAINER Chris Kankiewicz <ckankiewicz@freedomdebtrelief.com>
 
 # Install dependencies
 RUN apt-get update && apt-get install -y jq libmemcached-dev libyaml-dev python unzip zlib1g-dev \
