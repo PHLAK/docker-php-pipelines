@@ -2,7 +2,7 @@ FROM php:7.1.16
 MAINTAINER Chris Kankiewicz <Chris@ChrisKankiewicz.com>
 
 # Install dependencies
-RUN apt-get update && apt-get install -y libmemcached-dev libyaml-dev python unzip zlib1g-dev \
+RUN apt-get update && apt-get install -y jq libmemcached-dev libyaml-dev python unzip zlib1g-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Composer
