@@ -1,5 +1,5 @@
-phlak/docker-php-pipelines
-==========================
+docker-php-pipelines
+====================
 
 Docker image for running PHP tests in Bitbucket Pipelines.
 
@@ -23,7 +23,7 @@ Usage
 
 Add the following to the top of your `bitbucket-pipelines.yml` file
 
-    image: phlak/docker-php-pipelines
+    image: phlak/php-pipelines
 
 Troubleshooting
 ---------------
